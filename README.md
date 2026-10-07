@@ -16,3 +16,6 @@ This repository is our team's single source of truth for everything related to a
 Every skill and agent in this repository relies on shared context. When building or using a new tool, the system is designed to check our foundational `sprout-mops-context.md` file first so it understands our go-to-market motion and operational standards.
 
 Whether you are pulling an existing skill into your local AI coding environment (like Cursor or Claude) or contributing a new workflow that saves the team hours of manual data entry, this hub is designed to scale our operations efficiently.
+
+### What are skills?
+Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
