@@ -29,4 +29,4 @@ Agents are autonomous or semi-autonomous AI assistants configured to perform spe
 
 Inside the **/agents** folder, you will find the system instructions and tool configurations that bring these assistants to life and govern how they behave.
 
-How they work together: You assign a task to an Agent. The Agent reads the foundational Context, picks up the right Skill for the job, and executes the work.
+**How they work together:** You assign a task to an **Agent**. The Agent reads the foundational **Context**, picks up the right **Skill** for the job, and executes the work.
