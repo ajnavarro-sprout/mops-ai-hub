@@ -17,6 +17,6 @@ Every skill and agent in this repository relies on shared context. When building
 
 Whether you are pulling an existing skill into your local AI coding environment (like Cursor or Claude) or contributing a new workflow that saves the team hours of manual data entry, this hub is designed to scale our operations efficiently.
 
-### What are skills?
+# What are skills?
 ***
 Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
