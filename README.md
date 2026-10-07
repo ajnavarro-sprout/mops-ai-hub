@@ -23,9 +23,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 
 # What are Agents?
 
-If a **Skill** is the step-by-step Standard Operating Procedure (SOP), the Agent is the digital team member executing it.
-
-Agents are autonomous or semi-autonomous AI assistants configured to perform specific marketing operations functions. Instead of just answering questions like a standard ChatGPT prompt, agents have specific personas, can use tools (like reading spreadsheets or pinging APIs), and can string multiple steps together to complete a complex workflow.
+**Agents** are autonomous or semi-autonomous AI assistants configured to perform specific marketing operations functions. Instead of just answering questions like a standard Gemini or Claude prompt, agents have specific personas, can use tools (like reading spreadsheets or pinging APIs), and can string multiple steps together to complete a complex workflow.
 
 Inside the **/agents** folder, you will find the system instructions and tool configurations that bring these assistants to life and govern how they behave.
 
