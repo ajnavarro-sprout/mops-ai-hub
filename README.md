@@ -1,4 +1,4 @@
-# 🌱 Sprout Social MOPS AI Hub
+# 🌱 Sprout Social MOPs AI Hub
 
 Welcome to the central command for Sprout Social's Marketing Operations AI ecosystem.
 
@@ -17,6 +17,16 @@ Every skill and agent in this repository relies on shared context. When building
 
 Whether you are pulling an existing skill into your local AI coding environment (like Cursor or Claude) or contributing a new workflow that saves the team hours of manual data entry, this hub is designed to scale our operations efficiently.
 
-# What are skills?
+# What are Skills?
 
 Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
+
+# What are Agents?
+
+If a **Skill** is the step-by-step Standard Operating Procedure (SOP), the Agent is the digital team member executing it.
+
+Agents are autonomous or semi-autonomous AI assistants configured to perform specific marketing operations functions. Instead of just answering questions like a standard ChatGPT prompt, agents have specific personas, can use tools (like reading spreadsheets or pinging APIs), and can string multiple steps together to complete a complex workflow.
+
+Inside the **/agents** folder, you will find the system instructions and tool configurations that bring these assistants to life and govern how they behave.
+
+How they work together: You assign a task to an Agent. The Agent reads the foundational Context, picks up the right Skill for the job, and executes the work.
