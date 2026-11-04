@@ -1,8 +1,14 @@
 # 🌱 Sprout Social MOPs AI Hub
 
-Welcome to the central command for Sprout Social's Marketing Operations AI ecosystem.
+Welcome to the central command for Sprout Social's Marketing Operations AI ecosystem. The shared library for everything Sprout Social's Marketing Operations team builds with AI: agents, skills, prompts, and context.
 
-This repository is our team's single source of truth for everything related to artificial intelligence and automation. Instead of siloed prompts and scattered scripts, the `mops-ai-hub` acts as a shared library where our marketing agents, specialized skills, and foundational context live together. By centralizing our AI toolset, we ensure every agent understands Sprout Social's positioning, tech stack, and data models before executing a task.
+### Why this Exists
+
+AI work tends to end up in silos: a prompt in someone's notes, a skill on one laptop, an agent only its builder knows how to run. This hub fixes that.
+
+**Nothing lives in a silo**. If MOps built it, it's here, findable, and usable by the whole team.
+**One place to download from.** When we build something that enables another team, this is where they get it.
+**Updates are managed, not emailed.** Every asset has an owner, a version, and a changelog, so people know what changed and whether to update.
 
 ### What's Inside
 
