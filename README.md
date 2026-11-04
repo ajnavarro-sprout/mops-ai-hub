@@ -6,9 +6,9 @@ Welcome to the central command for Sprout Social's Marketing Operations AI ecosy
 
 AI work tends to end up in silos: a prompt in someone's notes, a skill on one laptop, an agent only its builder knows how to run. This hub fixes that.
 
-**Nothing lives in a silo**. If MOps built it, it's here, findable, and usable by the whole team.
-**One place to download from.** When we build something that enables another team, this is where they get it.
-**Updates are managed, not emailed.** Every asset has an owner, a version, and a changelog, so people know what changed and whether to update.
+* **`Nothing lives in a silo.`**: Personas, system instructions, and configurations for our autonomous MOPS assistants (e.g., Lead Routing Specialist, Campaign QA Bot, Data Hygiene Analyst).
+* **`One place to download from.`**: Executable markdown files that give our agents specialized knowledge for specific Sprout Social workflows (e.g., Marketo list formatting, Salesforce campaign attribution mapping, A/B test setup).
+* **`Updates are managed, not emailed.`**: A curated library of standardized, high-performing zero-shot and few-shot prompts for everyday MOPS tasks.
 
 ### What's Inside
 
