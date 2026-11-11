@@ -13,12 +13,12 @@ Every asset in the hub, with its status, risk, and owner. Find something here fi
 
 | Skill | Domain | What it does | Status | Risk | Owner | Version |
 |---|---|---|---|---|---|---|
-| [lifecycle-audit](skills/lead-lifecycle/lifecycle-audit/SKILL.md) | lead-lifecycle | Audits a Marketo lead lifecycle end to end: stage model, score thresholds, flow integrity, and funnel continuity. Produces a report and workbook. | `draft` | `read-only` | AJ Navarro | n/a |
-| [mql-summary](skills/lead-lifecycle/mql-summary/SKILL.md) | lead-lifecycle | Turns a lead's Marketo activity into a short brief a salesperson can act on in 30 seconds. | `draft` | `read-only` | AJ Navarro | n/a |
-| [eli-cmo](skills/system-admin/eli-cmo/SKILL.md) | system-admin | Translates technical MOps work into business-outcome language for a CMO or executive audience. | `draft` | `read-only` | AJ Navarro | n/a |
-| [instance-context](context/instance-context.md) | system-admin | Builds a Marketo instance reference document (folders, channels, tokens, fields, QA steps) from the API. | `draft` | `read-only` | AJ Navarro | n/a |
+| [lifecycle-audit](skills/lead-lifecycle/lifecycle-audit/SKILL.md) | lead-lifecycle | Audits a Marketo lead lifecycle end to end: stage model, score thresholds, flow integrity, and funnel continuity. Produces a report and workbook. | `draft` | `read-only` | AJ Navarro | 0.1.0 |
+| [mql-summary](skills/lead-lifecycle/mql-summary/SKILL.md) | lead-lifecycle | Turns a lead's Marketo activity into a short brief a salesperson can act on in 30 seconds. | `draft` | `read-only` | AJ Navarro | 0.1.0 |
+| [eli-cmo](skills/communications-strategy/eli-cmo/SKILL.md) | communications-strategy | Translates technical MOps work into business-outcome language for a CMO or executive audience. | `draft` | `read-only` | AJ Navarro | 0.1.0 |
+| [instance-context](skills/system-admin/instance-context/SKILL.md) | system-admin | Builds a Marketo instance reference document (folders, channels, tokens, fields, QA steps) from the API. | `draft` | `read-only` | AJ Navarro | 0.1.0 |
 
-*Version shows `n/a` until each skill gets the [standard header](templates/SKILL_TEMPLATE.md). `eli-cmo` fits better under `communications-strategy`, and `instance-context` is currently filed under `context/` but belongs in `skills/`. Both moves are pending.*
+*Manual baseline minutes (used to measure hours saved) are still `TBD` for every skill and need an owner estimate.*
 
 ### Built, waiting to be added
 
