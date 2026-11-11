@@ -1,6 +1,15 @@
 ---
 name: instance-context
 description: "Generate or update a Marketo Instance Context document by pulling live data from the Marketo API. Use this skill whenever the user asks to 'generate instance context', 'update context', 'pull instance data', 'map my Marketo instance', 'build a context doc', 'refresh the context file', 'document my Marketo setup', 'create an instance context', or 'update-context'. Also trigger when the user says things like 'what does my Marketo instance look like', 'map out my folders and programs', 'I need a context file for my instance', 'generate the instance doc', or 'pull everything from Marketo into a doc'. This skill reads existing context (if any) to preserve manual notes, then pulls fresh data from the Marketo MCP to build a comprehensive reference document including QA instructions."
+metadata:
+  owner: AJ Navarro
+  domain: system-admin
+  version: '0.1.0'
+  status: draft
+  risk: read-only
+  requires: 'Marketo MCP'
+  last_reviewed: '2026-11-11'
+  manual_baseline_minutes: 'TBD'
 ---
  
 # Instance Context Generator
