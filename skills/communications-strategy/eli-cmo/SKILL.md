@@ -14,6 +14,15 @@ description: >
   and asking how to frame it. Always run technical MOPs writeups through this
   translation pass before they go in front of executives -- content that leads
   with tool names, raw metrics, or implementation mechanics needs this first.
+metadata:
+  owner: AJ Navarro
+  domain: communications-strategy
+  version: '0.1.0'
+  status: draft
+  risk: read-only
+  requires: 'None (no system access)'
+  last_reviewed: '2026-11-11'
+  manual_baseline_minutes: 'TBD'
 ---
 
 # ELI-CMO
