@@ -1,4 +1,4 @@
-# 🌱 MOps AI Hub
+# 🌱 MOPs AI Hub
 
 The shared library for everything Sprout Social's Marketing Operations team builds with AI: **agents, skills, prompts, and context**.
 
@@ -6,7 +6,7 @@ The shared library for everything Sprout Social's Marketing Operations team buil
 
 AI work tends to end up in silos: a prompt in someone's notes, a skill on one laptop, an agent only its builder knows how to run. This hub fixes that.
 
-- **Nothing lives in a silo.** If MOps built it, it's here, findable, and usable by the whole team.
+- **Nothing lives in a silo.** If MOPs built it, it's here, findable, and usable by the whole team.
 - **One place to download from.** When we build something that enables another team, this is where they get it.
 - **Updates are managed, not emailed.** Every asset has an owner, a version, and a changelog, so people know what changed and whether to update.
 
