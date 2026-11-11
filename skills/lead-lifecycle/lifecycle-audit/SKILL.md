@@ -2,6 +2,15 @@
 name: lifecycle-audit
 description: >
   Audit a Marketo instance's lead lifecycle end to end: the stage model as built, entry-criteria and score-threshold integrity, flow integrity, and whether a person can actually traverse the funnel. Use this skill whenever the user asks to audit the lifecycle, check the lead lifecycle, review the funnel, document lifecycle stages, verify MQL logic, check score thresholds, find dormant stages, or "figure out why nobody is becoming an MQL." Also trigger for "lifecycle audit," "audit my funnel," "is my lifecycle working," "why did this lead not progress," "what writes our lifecycle stages," "check our MQL definition," "are our lifecycle campaigns live," "map my lifecycle," "review our demand funnel," or when the user supplies a sales process document and wants it reconciled against Marketo. This skill is READ-ONLY: it inventories, diagnoses and ranks findings but never activates, edits or deletes a campaign, status or token. It outputs a markdown report plus an Excel workbook.
+metadata:
+  owner: AJ Navarro
+  domain: lead-lifecycle
+  version: '0.1.0'
+  status: draft
+  risk: read-only
+  requires: 'Marketo MCP; xlsx skill (for the workbook)'
+  last_reviewed: '2026-11-11'
+  manual_baseline_minutes: 'TBD'
 ---
 
 # Lifecycle Audit
