@@ -1,6 +1,15 @@
 ---
 name: mql-summary
 description: Given a lead's email address, pull their activity record from Marketo Production and write a short, plain-language MQL summary for a salesperson (what they did, which product they care about, how to approach them, with form-fill URLs). Use whenever the user says "MQL summary", "summarize this lead", "why did this lead MQL", "analyze this person's activity", "what should sales know about this email", or pastes an email address and asks what a lead did or what they're interested in, even if they never say "MQL". Read-only; never writes to Marketo.
+metadata:
+  owner: AJ Navarro
+  domain: lead-lifecycle
+  version: '0.1.0'
+  status: draft
+  risk: read-only
+  requires: 'Marketo Production MCP (marketo-prod)'
+  last_reviewed: '2026-11-11'
+  manual_baseline_minutes: 'TBD'
 ---
 
 # MQL Summary
