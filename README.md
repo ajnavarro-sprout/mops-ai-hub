@@ -96,6 +96,18 @@ mops-ai-hub/
 
 Skills are owned by domain. The owner for each folder is listed in [`CODEOWNERS`](.github/CODEOWNERS). Owners review changes, keep their assets current, and decide when something is ready for `production`.
 
+# What are Skills?
+
+Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
+
+# What are Agents?
+
+**Agents** are autonomous or semi-autonomous AI assistants configured to perform specific marketing operations functions. Instead of just answering questions like a standard Gemini or Claude prompt, agents have specific personas, can use tools (like reading spreadsheets or pinging APIs), and can string multiple steps together to complete a complex workflow.
+
+Inside the **/agents** folder, you will find the system instructions and tool configurations that bring these assistants to life and govern how they behave.
+
+**How they work together:** You assign a task to an **Agent**. The Agent reads the foundational **Context**, picks up the right **Skill** for the job, and executes the work.
+
 ---
 
 *Maintained by the Sprout Social Marketing Operations team.*
