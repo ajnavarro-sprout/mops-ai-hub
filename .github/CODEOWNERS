@@ -1,0 +1,56 @@
+# MOps AI Hub: CODEOWNERS
+#
+# Owners are automatically requested for review on any pull request that
+# touches their folders. Combined with branch protection ("Require review
+# from Code Owners"), nothing merges without a domain owner's approval.
+#
+# STATUS: placeholders. Every rule below is commented out so GitHub doesn't
+# flag unknown usernames. To activate:
+#   1. Replace each @PLACEHOLDER with the person's real GitHub username.
+#   2. Confirm each person has Write access to the repo (CODEOWNERS only
+#      works for users with write access).
+#   3. Remove the leading "# " from the rule lines.
+#
+# Owners (GitHub usernames to be confirmed):
+#   Andrew Fezza    -> @PLACEHOLDER-andrew
+#   Jon Detwiler    -> @PLACEHOLDER-jon
+#   Mallory Schmitt -> @PLACEHOLDER-mallory
+#   Cam Conrad      -> @PLACEHOLDER-cam
+#   AJ Navarro      -> @ajnavarro-sprout
+#
+# Rules are matched top to bottom; the LAST matching rule wins, so keep the
+# catch-all first and the specific folders after it.
+
+# ---------------------------------------------------------------------------
+# Catch-all: repo-level files (README, CONTRIBUTING, CATALOG, templates, etc.)
+# Maintainer owns the hub itself.
+# ---------------------------------------------------------------------------
+# *                                   @ajnavarro-sprout
+
+# ---------------------------------------------------------------------------
+# Skills by domain: assign one primary owner per folder (add a second owner
+# on the same line as a backup reviewer if wanted).
+# ---------------------------------------------------------------------------
+# /skills/ai-ops/                       @PLACEHOLDER-owner
+# /skills/analytics-attribution/        @PLACEHOLDER-owner
+# /skills/campaign-ops/                 @PLACEHOLDER-owner
+# /skills/communications-strategy/      @PLACEHOLDER-owner
+# /skills/compliance/                   @PLACEHOLDER-owner
+# /skills/data-management/              @PLACEHOLDER-owner
+# /skills/enablement-intake/            @PLACEHOLDER-owner
+# /skills/integrations/                 @PLACEHOLDER-owner
+# /skills/lead-lifecycle/               @PLACEHOLDER-owner
+# /skills/system-admin/                 @PLACEHOLDER-owner
+
+# ---------------------------------------------------------------------------
+# Other content types
+# ---------------------------------------------------------------------------
+# /agents/                              @ajnavarro-sprout
+# /prompts/                             @PLACEHOLDER-owner
+# /context/                             @PLACEHOLDER-owner
+
+# ---------------------------------------------------------------------------
+# Governance files: changes to how the hub works need the maintainer.
+# ---------------------------------------------------------------------------
+# /.github/                             @ajnavarro-sprout
+# /templates/                           @ajnavarro-sprout
